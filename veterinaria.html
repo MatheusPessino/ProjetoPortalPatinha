@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Patinhas PetShop A melhor para seu pet</title>
+</head>
+<body>
+    <header>
+        <h1><img src="img/logo.png"> PetShop Patinhas</h1>
+        <span>A melhor de todas para seu pet!!!</span>
+    </header>
+    <main>
+        <!--NavBar entre as pages-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="sobreNos.html" class="nav-item nav-link ">Sobre Nós</a>
+                        <a href="cadastro.html" class="nav-item nav-link ">Cadastro</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
+                            <div class="dropdown-menu">
+                                <a href="banhoTosa.html" class="dropdown-item">Banho e Tosa</a>
+                                <a href="veterinaria.html" class="dropdown-item">Veterinária</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="d-flex justify-content-center align-items-center"> <!--table com os preços de consulta e procedimentos-->
+            <table class="table table-dark" id="tableVet">
+                <thead>
+                    <tr>
+                        <th>Procedimentos</th>
+                        <th>Preço cão</th>
+                        <th>Preço Gato</th>
+                        <th>Preço exótico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consulta</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 80,00</td>
+                    </tr>
+                    <tr>
+                        <td>Castração</td>
+                        <td>R$ 300,00</td>
+                        <td>R$ 320,00</td>
+                        <td>R$ 400,00</td>
+                    </tr>
+                    <tr>
+                        <td>Vacina Raiva</td>
+                        <td>R$ 156,00</td>
+                        <td>R$ 158,00</td>
+                        <td>R$ 200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Vacina Geral</td>
+                        <td>R$ 200,00</td>
+                        <td>R$ 210,00</td>
+                        <td>R$ 300,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="d-flex justify-content-center align-items-center"> <!--dicas de cuidados com seu pet-->
+            <article> <!--article com lista dos melhores remedios contra pulga e carrapatos-->
+                <h3 id="titleOl">Ranking dos melhores antipulgas</h3>
+                <ol>
+                    <li>Frontline</li>
+                    <li>Simparic</li>
+                    <li>Tiper C</li>
+                    <li>Bravecto</li>
+                    <li>Nexgard</li>
+                </ol>
+            </article>
+            <article> <!--article sobre a importancia de castrar seu pet-->
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <span>
+            Desenvolvido por <a href="https://www.linkedin.com/in/paulo-matheus-pessino-santos-954044172/" target="_blank">Matheus Pessino</a>
+        </span>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

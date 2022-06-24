@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Patinhas PetShop A melhor para seu pet</title>
+</head>
+<body>
+    <header>
+        <h1><img src="img/logo.png"> PetShop Patinhas</h1>
+        <span>A melhor de todas para seu pet!!!</span>
+    </header>
+    <main>
+        <!--NavBar entre as pages-->
+        <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="sobreNos.html" class="nav-item nav-link ">Sobre Nós</a>
+                        <a href="cadastro.html" class="nav-item nav-link ">Cadastro</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
+                            <div class="dropdown-menu">
+                                <a href="banhoTosa.html" class="dropdown-item">Banho e Tosa</a>
+                                <a href="veterinaria.html" class="dropdown-item">Veterinária</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h2 class="welcome">Seja Bem Vindo</h2>
+        <section class="container"><!--Home page com cards e referencias as próximas paginas e seus conteudos-->
+            <div class="row">
+                <article class="col-sm d-flex justify-content-center ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/pulga.jpg" class="card-img-top imgCard" alt="pulga não permitida" style="width: 100px;height:100px; align-self: center;">
+                        <div class="card-body">
+                            <h5 class="card-title h5card">Lista com os melhores anti-pulgas do mercado</h5>
+                            <p class="card-text">Preocupado com a saúde do seu pet...</p>
+                            <a href="veterinaria.html" class="btn btn-primary">Leia Mais</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-sm d-flex justify-content-center ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/pet.jpg" class="card-img-top imgCard" alt="cachorro" style="width: 100px; height: 100px; align-self: center;">
+                        <div class="card-body">
+                            <h5 class="card-title h5card">Mantenha seu pet limpo conosco</h5>
+                            <p class="card-text">Veja nossa tabela de preços e traga seu pet pra ser cuidado na patinhas</p>
+                            <a href="banhoTosa.html" class="btn btn-primary">Leia Mais</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+                
+        </section>
+    </main>
+    <footer>
+        <span>
+            Desenvolvido por <a href="https://www.linkedin.com/in/paulo-matheus-pessino-santos-954044172/" target="_blank">Matheus Pessino</a>
+        </span>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

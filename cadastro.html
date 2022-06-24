@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Patinhas PetShop A melhor para seu pet</title>
+</head>
+<body>
+    <header>
+        <h1><img src="img/logo.png"> PetShop Patinhas</h1>
+        <span>A melhor de todas para seu pet!!!</span>
+    </header>
+    <main>
+        <!--NavBar entre as pages-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="sobreNos.html" class="nav-item nav-link ">Sobre Nós</a>
+                        <a href="cadastro.html" class="nav-item nav-link ">Cadastro</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
+                            <div class="dropdown-menu">
+                                <a href="banhoTosa.html" class="dropdown-item">Banho e Tosa</a>
+                                <a href="veterinaria.html" class="dropdown-item">Veterinária</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section> <!--Form de cadastro-->
+            <form method="" action="" class="boxCad">
+                <fieldset id="formCad">
+                    <legend>Faça seu cadastro</legend>
+                    <label for="nome">Nome:
+                        <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" required placeholder="Digite seu email">
+                    </label>
+                    <label for="telefone">Telefone:
+                        <input type="text" name="telefone" id="telefone" required placeholder="Digite seu telefone">
+                    </label>
+                    <label for="endereço">Endereço:
+                        <input type="text" name="endereço" id="endereço" required placeholder="Digite seu endereço">
+                    </label>
+                    <label for="pets">Quantos pets?
+                        <input type="number" id="pets" name="pets">
+                    </label>
+                    <select>
+                        <option disabled selected>Escolha seu pet favorito</option>
+                        <option value="gato">Gato</option>
+                        <option value="cachorro">Cachorro</option>
+                        <option value="passaros">Passaros</option>
+                        <option value="todos">Todos</option>
+                    </select>
+                    <label>Deseja receber promoções por email</label>
+                    <div>
+                        <label><input type="radio" name="Promo" value="sim" id="sim">Sim</label>
+                        <label><input type="radio" name="Promo" value="nao" id="nao">Não</label>
+                    </div>
+                </fieldset>
+                <button id="btnForm" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span>
+            Desenvolvido por <a href="https://www.linkedin.com/in/paulo-matheus-pessino-santos-954044172/" target="_blank">Matheus Pessino</a>
+        </span>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

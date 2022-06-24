@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Patinhas PetShop A melhor para seu pet</title>
+</head>
+<body>
+    <header>
+        <h1><img src="img/logo.png"> PetShop Patinhas</h1>
+        <span>A melhor de todas para seu pet!!!</span>
+    </header>
+    <main>
+        <!--NavBar entre as pages-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="sobreNos.html" class="nav-item nav-link ">Sobre Nós</a>
+                        <a href="cadastro.html" class="nav-item nav-link ">Cadastro</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
+                            <div class="dropdown-menu">
+                                <a href="banhoTosa.html" class="dropdown-item">Banho e Tosa</a>
+                                <a href="veterinaria.html" class="dropdown-item">Veterinária</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="banho"> <!--article com lista(ul) explicando o pq do banho e tosa serem bons pro pet-->
+            <article>
+                <h3>Beneficios do banho e tosa nos pets</h3>
+                <ul style="list-style: none;">
+                    <li>Diminui o risco de problemas na pele </li>
+                    <li>Melhora os odores</li>
+                    <li>Deixa seu pet mais bonito</li>
+                </ul>
+            </article>
+        </section>
+        <section class="banho"> <!--Tabela de preços do banho e Tosa-->
+            <table class="table table-bordered border-primary" id="tableBanho">
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Preço porte pequeno</th>
+                        <th>Preço porte médio</th>
+                        <th>Preço porte grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Banho</td>
+                        <td>R$ 35,00</td>
+                        <td>R$ 40,00</td>
+                        <td>R$ 45,00</td>
+                    </tr>
+                    <tr>
+                        <td>Tosa Higienica</td>
+                        <td>R$ 40,00</td>
+                        <td>R$ 45,00</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                    <tr>
+                        <td>Tosa tesoura</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 55,00</td>
+                        <td>R$ 60,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <span>
+            Desenvolvido por <a href="https://www.linkedin.com/in/paulo-matheus-pessino-santos-954044172/" target="_blank">Matheus Pessino</a>
+        </span>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
